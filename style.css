@@ -1,0 +1,58 @@
+body{
+    background: url(style/log.jpg); 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.regform{
+    width: 500px;
+    margin: 250px auto;
+    padding: 10px 20px 30px;
+    background-color: rgba(0,0,0,.5);
+    color: white;
+    display: block;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.regform h3{
+    color: burlywood;
+    text-align: center;
+}
+
+.regform .testlable{
+    display: block;
+}
+
+.input input{
+    width: 100%;
+    font-size: 1.5em;
+    border: 1px solid cadetblue;
+    border-radius: 8px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin: 5px 0px 10px;
+}
+
+input:focus{
+    background-color: burlywood;
+}
+
+
+
+.btn{
+    text-align: center;
+}
+
+.button{
+    background-color: darkgray;
+    font-size: 30px;
+    border-radius: 8px;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 10px;
+}
+
+.radio input{
+    accent-color: red;
+    transform: scale(1.5);
+}
